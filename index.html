@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/estilos.css">
+    <title>Suma Web</title>
 </head>
 <body>
-    
+    <div class="boxSuma">
+        <h1>Suma en JavaScript</h1>
+        <label for="numero1"> Ingrese el primer digito</label>
+        <input type="number" id="numero1">
+        <p>+</p>
+        <label for="numero2">Ingrese el segundo digito</label>
+        <input type="number" id="numero2">
+        <br>
+        <button onclick="sumar()">Sumar</button>
+        <p>El resultado es: <span id="resultado"></span></p>
+    </div>
+
+    <script src="/assets/js/app.js"></script>
 </body>
 </html>
