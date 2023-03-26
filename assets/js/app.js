@@ -9,8 +9,8 @@ function sumar(){
     var resultado = numero1 + numero2;
 
     if(resultado > 100){
-        elementoResultado.textContent = `el resultado es MAYOR O IGUAL A 100 (${resultado})`;
+        elementoResultado.textContent = `es MAYOR O IGUAL A 100 (${resultado})`;
     }else{
-        elementoResultado.textContent = `el resultado es MENOR A 100 (${resultado})`;
+        elementoResultado.textContent = `es MENOR A 100 (${resultado})`;
     }
 }
